@@ -1,2 +1,3 @@
 # ForestFireModelling
-Improved Efficiency of Forest Fires Models Using MPI Parallelisation
+The objective of this project is to solve the problem of calculating the nearest and furthest distances between objects located within a 2D square plane. This involves evaluating the distances for datasets of increasing size, using both standard Euclidean and wraparound geometries. To enhance computational efficiency, parallel programming techniques via OpenMP are implemented.
+This report discusses the methodology for generating and parsing object locations, explains the naive algorithm and its challenges with scaling, and details the steps taken to parallelise the process. It also analyses the distribution of distances and evaluates the performance improvements achieved.
